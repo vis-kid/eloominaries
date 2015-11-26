@@ -11,3 +11,7 @@ gem "middleman-deploy"
 
 # For feed.xml.builder
 gem "builder", "~> 3.0"
+
+gem 'bourbon'
+gem 'neat'
+gem 'bitters'
