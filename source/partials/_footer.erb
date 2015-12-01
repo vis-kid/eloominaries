@@ -14,7 +14,7 @@
     <h3>Tags</h3>
     <ol>
       <% blog.tags.to_a.shuffle[0...10].each do |tag, articles| %>
-        <li><%= link_to "#{tag} (#{articles.size})", tag_path(tag) %></li>
+        <li><%= link_to "#{tag}", tag_path(tag) %></li>
       <% end %>
     </ol>
   </div>
