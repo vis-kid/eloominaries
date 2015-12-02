@@ -1,6 +1,6 @@
 footer
   +outer-container
-  border-top: 1px solid $base-border-color
+  border-top: 1px solid rgba($text-color, .3)
   padding-top: 4em
   padding-bottom: 4em
 
@@ -13,10 +13,15 @@ footer
 .recent-posts
   +span-columns(6)
   +shift(2)
-  //background-color: tomato
 
 .footer-tags
   +span-columns(2)
-  //background-color: cyan
-  
 
+.recent-posts, .footer-tags
+  color: darken($medium-gray, 20%)
+  a
+    +transition(all .1s ease-in-out)
+    color: $text-color
+    &:hover
+      color: $matcha-green
+      border-bottom: 2px solid $matcha-green
