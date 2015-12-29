@@ -1,0 +1,24 @@
+<% wrap_layout :layout do %>
+
+  <article class='article-detail'>
+
+    <h2 class='detail-post-title'><%= current_article.title %></h2>
+    <h3 class='detail-post-date'><%= current_article.date.strftime('%b %e') %></h3>
+  
+    <% if current_page.data.soundcloud_id %>
+      <section class='soundclould-player-big'>
+        <iframe 
+          width="100%" 
+          height="450" 
+          scrolling="no" 
+          frameborder="no" 
+          src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/<%= current_page.data.soundcloud_id %>&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true">
+        </iframe>
+      </section>
+    <% end %>
+  
+    <%= current_article.body %>
+  
+  </article>
+
+<% end %>
