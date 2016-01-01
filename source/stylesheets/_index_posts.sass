@@ -1,27 +1,11 @@
-.posts
-  +outer-container
-
-.posts p, .post-title
-  +shift(2)
-  +span-columns(8)
-
 .post-title
-  font-size: 1.7em
   a
     +transition(color .4s ease-in-out)
-    color: $matcha-green
     &:hover
       color: $text-color
 
 .post-date
   font-size: 0.7em
-  color: $text-color
   margin:
     left: em(-80px)
     right: em(20px)
-
-.posts p
-  font-size: 1.05em
-  margin-bottom: 4em
-  color: $text-color
-  line-height: 1.35em

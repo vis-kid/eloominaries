@@ -1,0 +1,23 @@
+#main, .posts
+  +outer-container
+
+.posts p, .post-title, article.article-detail
+  +shift(2)
+  +span-columns(8)
+
+.post-title a, .detail-post-title
+  color: $matcha-green
+
+.post-title, .detail-post-title
+  font-size: 1.7em
+
+.posts p, .article-detail p
+  font-size: 1.05em
+  line-height: 1.35em
+
+.posts p, .article-detail p, .detail-post-date, .post-date
+  color: $text-color
+
+
+.posts p, .article-detail p
+  margin-bottom: 4em
