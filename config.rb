@@ -94,8 +94,6 @@ activate :deploy do |deploy|
   deploy.build_before = true
 end
 
-set :site_url, ""
-
 # Build-specific configuration
 configure :build do
   # For example, change the Compass output style for deployment
@@ -111,8 +109,6 @@ configure :build do
 
   # Use relative URLs
   activate :relative_assets
-
-  set :site_url, "/matcha-nerdz"
 
   # Or use a different image path
   # set :http_prefix, "/Content/images/"
