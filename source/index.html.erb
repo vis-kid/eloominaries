@@ -10,6 +10,15 @@ per_page: 10
   <% end %>
 <% end %>
 
+<div class="hero">
+  <div class="hero-inner">
+    <div class="hero-copy">
+      <h1>MATCHA NERDZ</h1>
+      <p>Podcast for green tea connoisseurs</p>  
+    </div>
+  </div>
+</div>
+
 <div class='posts'>
   <% page_articles.each_with_index do |article, i| %>
     <h2 class='post-title'><span class='post-date'><%= article.date.strftime('%b %e') %></span> <%= link_to article.title, article %></h2>
