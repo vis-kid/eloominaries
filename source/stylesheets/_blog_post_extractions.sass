@@ -6,7 +6,9 @@
   +span-columns(8)
 
 .post-title a, .detail-post-title
-  color: $matcha-green
+  color: $medium-gray
+  &:hover
+    color: $matcha-green
 
 .post-title, .detail-post-title
   font-size: 1.7em
@@ -15,9 +17,11 @@
   font-size: 1.05em
   line-height: 1.35em
 
-.posts p, .article-detail p, .detail-post-date, .post-date
+.posts p, .article-detail p 
   color: $text-color
 
+.detail-post-date, .post-date
+  color: $light-gray
 
 .posts p, .article-detail p
   margin-bottom: 4em
