@@ -4,14 +4,6 @@ per_page: 4
 pageable: true
 
 ---
-<div class="hero">
-  <div class="hero-inner">
-    <div class="hero-copy">
-      <h1>MATCHA NERDZ</h1>
-      <p>Podcast for green tea connoisseurs</p>  
-    </div>
-  </div>
-</div>
 
 <div class='posts'>
   <% page_articles.each_with_index do |article, i| %>
@@ -24,7 +16,7 @@ pageable: true
         height="166" 
         scrolling="no" 
         frameborder="no" 
-        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/<%= article.data.soundcloud_id %>&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+        src="https://w.soundcloud.com/player/?url=https%4A//api.soundcloud.com/tracks/<%= article.data.soundcloud_id %>&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
     <% end %>
     </section>
 
