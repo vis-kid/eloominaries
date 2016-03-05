@@ -1,14 +1,16 @@
 <header class="centered-navigation" role="banner">
   <div class="centered-navigation-wrapper">
     <a href="javascript:void(0)" class="mobile-logo">
-      <%= image_tag "matcha_nerdz_logo.png", alt: "Logo image" %>
+      <%= image_tag "Between_Screens_Logo_Cube_Up.svg", alt: "Logo image" %>
     </a>
     <a href="javascript:void(0)" id="js-centered-navigation-mobile-menu" class="centered-navigation-mobile-menu">MENU</a>
     <nav role="navigation">
       <ul id="js-centered-navigation-menu" class="centered-navigation-menu show">
         <li class="nav-link"><%= link_to 'Home', '/matcha-nerdz' %></li>
         <li class="nav-link logo">
-          <%= image_tag "matcha_nerdz_logo.png", alt: "Logo image" %>
+          <% link_to '/matcha-nerdz' do %>
+            <%= image_tag 'Between_Screens_Logo_Cube_Up.svg', alt: 'Logo cube' %>
+          <% end %>
         </li>
         <li class="nav-link"><%= link_to 'About', '/pages/about.html' %></li>
       </ul>
