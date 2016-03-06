@@ -1,37 +1,47 @@
 ---
 
-per_page: 4
+per_page: 3
 pageable: true
 
 ---
 
 <div class='posts'>
-  <% page_articles.each_with_index do |article, i| %>
-    <h2 class='post-title'><span class='post-date'><%= article.date.strftime('%b %e') %></span> <%= link_to article.title, article %></h2>
+  <ul>
+  <% page_articles.each do |article| %>
+    <li>
+    <article class="index-article">
 
-    <% if article.data.soundcloud_id %>
-    <section class='soundcloud-player-small'>  
-      <iframe 
-        width="100%"
-        height="166" 
-        scrolling="no" 
-        frameborder="no" 
-        src="https://w.soundcloud.com/player/?url=https%4A//api.soundcloud.com/tracks/<%= article.data.soundcloud_id %>&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
-    <% end %>
-    </section>
+      <h2 class='post-title'><span class='post-date'><%= article.date.strftime('%b %d') %></span> <%= link_to article.title, article %></h2>
 
-    <%= article.summary(300) %>
+      <% if article.data.topic_list %>
+      <h3 class='topic-list'><%= article.data.topic_list %></h3>
+      <% end %>
+
+      <% if article.data.soundcloud_id %>
+      <div class='soundcloud-player-small'>  
+          <iframe width="100%"
+            height="166" 
+            scrolling="no" 
+            frameborder="no" 
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/<%= article.data.soundcloud_id %>&amp;color=ff0000&amp;auto_play=false&amp;hide_related=true&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false"></iframe>
+      </div>
+       <% end %>
+    </article>
+    </li>
   <% end %>
+    </ul>
 </div>
 
 <% if paginate %>
 
-  <% if prev_page %>
-    <p class='pagination-link'><%= link_to '<< Previous page', prev_page %></p>
-  <% end %>
+  <section>
+    <% if prev_page %>
+      <p class='pagination-link'><%= link_to '« Previous page', prev_page %></p>
+    <% end %>
 
-  <% if next_page %>
-    <p class='pagination-link'><%= link_to 'Next page >>', next_page %></p>
-  <% end %>
+    <% if next_page %>
+      <p class='pagination-link'><%= link_to 'Next page »', next_page %></p>
+    <% end %>
+  </section>
 
 <% end %>
