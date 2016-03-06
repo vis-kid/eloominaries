@@ -1,23 +1,24 @@
 #logo
-  +shift(1.15)
   +span-columns(1)
   img
     height: 65px
+    &:hover
+      opacity: .7
+
 header
-  +span-columns(12)
-  height: 70px
+  +outer-container
   margin:
     top: 30px
 
 .navigation
-  float: right
+  li
+    float: right
+    margin-top: .5em
 
 .navigation a
-  color: $dark-gray
+  color: darken($light-gray, 30%)
   margin:
-    top: 0.5em
-    bottom: 0.5em
-    right: 0.9em
+    left: 0.9em
   &:hover
     border-bottom: 1px solid $matcha-green
     color: $matcha-green
