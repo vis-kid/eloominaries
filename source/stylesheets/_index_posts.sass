@@ -9,7 +9,13 @@
   font-size: 0.6em
   margin:
     left: em(-80px)
-    right: em(20px)
+    right: em(21px)
 
 .soundcloud-player-small
   margin-bottom: 1em
+
+.post-title, .pagination-link
+  a
+    +transition(color .3s ease-in-out)
+    &:hover
+      color: $matcha-green
