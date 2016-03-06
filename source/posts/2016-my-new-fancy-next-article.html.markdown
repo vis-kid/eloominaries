@@ -1,10 +1,8 @@
 ---
-title: 'Coby Chapple | #01'
+title: 'Trent Walton | #08'
 topic_list: 'Design Directors @ thoughtbot | Leadership | Chief Design Officer responsibilities | Fulfilled & happy | Flat hierarchy | Coordinating Design Directors | Titles | Feedback'
-date: 2012-01-01
 soundcloud_id: 216611943
-tags: example, bourbon, neat, middleman
+date: 2016-02-19 10:47 UTC
+tags:
 ---
 
-This is an example article. You probably want to delete it and write your own articles!
-<%= lorem.sentences 5 %>
