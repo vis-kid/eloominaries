@@ -11,7 +11,7 @@
 
 
   <div class='footer-tags'>
-    <h3>Tags</h3>
+    <h3>Random Tags</h3>
     <ol>
       <% blog.tags.to_a.shuffle[0...10].each do |tag, articles| %>
         <li><%= link_to "#{tag}", tag_path(tag) %></li>
