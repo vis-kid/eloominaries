@@ -11,7 +11,7 @@ pageable: true
     <li>
     <article class="index-article">
 
-      <h2 class='post-title'><span class='post-date'><%= article.date.strftime('%b %d') %></span> <%= link_to article.title, article %></h2>
+      <h2 class='post-title'><span class='post-date'><%= article.date.strftime('%b %d | %Y') %></span> <%= link_to article.title, article %></h2>
 
       <% if article.data.topic_list %>
       <h3 class='topic-list'><%= article.data.topic_list %></h3>
