@@ -15,12 +15,16 @@ $base-spacing: $base-line-height * 1em;
 $small-spacing: $base-spacing / 2;
 $base-z-index: 0;
 
+// margins
+$small-margin: .5em;
+$medium-margin: 4em;
+
 // Colors
 $blue: #477dca;
 $dark-gray: #333;
 $medium-gray: #999;
 $light-gray: #ddd;
-$matcha-green: #78B69D;
+$matcha-green: #FF0000;
 $text-color: darken($medium-gray, 20%);
 
 // Font Colors
