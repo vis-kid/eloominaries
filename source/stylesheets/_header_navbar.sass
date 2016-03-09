@@ -11,17 +11,13 @@ header
     top: 30px
 
 .navigation
+  +span-columns(9)
   li
+    display: inline-block
     float: right
-    margin-top: .5em
-
-.navigation a
-  color: darken($light-gray, 30%)
-  margin:
-    left: 0.9em
-  &:hover
-    border-bottom: 1px solid $matcha-green
-    color: $matcha-green
-
-.navigation li
-  display: inline-block
+    margin:
+      top: $small-margin
+  a
+    color: darken($medium-gray, 30%)
+    margin:
+      left: $medium-margin / 4
