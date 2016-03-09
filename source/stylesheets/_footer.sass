@@ -1,27 +1,31 @@
 footer
   +outer-container
   border-top: 1px solid $light-gray
-  padding-top: 4em
-  padding-bottom: 4em
-
-.recent-posts, .footer-tags
+  padding:
+    bottom: $medium-margin
   h3
     font-size: 1.7em
+    color: $light-gray
+    margin:
+      bottom: $small-margin
   li
     font-size: 1.05em
-
-.recent-posts
-  +span-columns(6)
-  +shift(2)
-
-.footer-tags
-  +span-columns(2)
+    margin:
+      bottom: $small-margin / 4
+  a
+    color: darken($medium-gray, 30%)
 
 .recent-posts, .footer-tags
-  color: darken($medium-gray, 20%)
-  a
-    +transition(all .1s ease-in-out)
-    color: $text-color
-    &:hover
-      color: $matcha-green
-      border-bottom: 2px solid $matcha-green
+  +span-columns(8)
+  +shift(2)
+  margin:
+    top: $medium-margin
+  li
+    margin:
+      top: $small-margin
+
+.footer-tags
+  li
+    display: inline
+    margin:
+      right: $small-margin
