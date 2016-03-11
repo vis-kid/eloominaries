@@ -1,24 +1,34 @@
 #main, .posts
   +outer-container
 
-.posts p, .post-title, article.article-detail, .soundcloud-player-small
+.posts p,  article.article-detail, .index-article
   +shift(2)
   +span-columns(8)
 
-.post-title a, .detail-post-title
+.soundcloud-player-small
+  margin:
+    bottom: $medium-margin
+
+.index-article
+
+.topic-list
   color: $medium-gray
-  &:hover
-    color: $matcha-green
+  line-height: 1.8em
+  margin:
+    bottom: $small-margin
 
-.post-title, .detail-post-title
-  font-size: 1.7em
+.post-title
+  a
+    color: darken($medium-gray, 30%)
+    font-size: 1.7em
 
-.posts p, .article-detail p
-  font-size: 1.05em
-  line-height: 1.35em
-
-.posts p, .article-detail p 
-  color: $text-color
+.posts, .article-detail
+  p
+    color: darken($medium-gray, 30%)
+    font-size: 1.05em
+    line-height: 1.35em
+    margin:
+      bottom: $medium-margin
 
 .detail-post-date, .post-date
   color: $light-gray
