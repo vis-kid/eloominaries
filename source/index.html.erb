@@ -1,6 +1,6 @@
 ---
 
-per_page: 3
+per_page: 7
 pageable: true
 
 ---
@@ -36,11 +36,11 @@ pageable: true
 
   <section>
     <% if prev_page %>
-      <p class='pagination-link'><%= link_to '« Previous page', prev_page %></p>
+      <p class='pagination-link'><%= link_to '« Newer Stuff', prev_page %></p>
     <% end %>
 
     <% if next_page %>
-      <p class='pagination-link'><%= link_to 'Next page »', next_page %></p>
+      <p class='pagination-link'><%= link_to 'Older Stuff »', next_page %></p>
     <% end %>
   </section>
 
