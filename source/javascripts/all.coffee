@@ -11,5 +11,3 @@ $(document).ready ->
       return
     return
   return
-
-
