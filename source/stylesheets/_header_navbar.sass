@@ -5,15 +5,20 @@ body
   background-color: whitesmoke
 
 #logo
-  +span-columns(1)
+  +media(max-width 780px)
+    +shift(0.5)
+  +span-columns(2)
   -webkit-filter: drop-shadow( 0px 3px 1px lighten($light-gray, 5%))
   filter: drop-shadow( 0px 3px 1px lighten($light-gray, 5%))
   img
+    height: 65px
     margin:
       left: -6px
       top: -4px
-    height: 65px
-
+    +media(max-width 780px)
+      margin:
+        left: 0px
+ 
 header
   +outer-container
   margin:
@@ -21,7 +26,9 @@ header
     bottom: 27px
 
 .navigation
-  +span-columns(9)
+  +media(max-width 780px)
+    +span-columns(9)
+  +span-columns(8)
   li
     display: inline-block
     float: right
