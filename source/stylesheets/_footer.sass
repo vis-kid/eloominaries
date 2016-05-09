@@ -12,6 +12,9 @@ footer
       bottom: $small-margin
 
 .recent-posts, .footer-tags
+  +media(max-width 780px)
+    +span-columns(11)
+    +shift(0.5)
   +span-columns(8)
   +shift(2)
   line-height: 1.4em
