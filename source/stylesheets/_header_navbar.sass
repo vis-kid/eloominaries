@@ -5,6 +5,8 @@ body
   background-color: whitesmoke
 
 #logo
+  +media(max-width 1200px)
+    +shift(2)
   +media(max-width 830px)
     +shift(0.5)
   +span-columns(2)
@@ -26,6 +28,8 @@ header
     bottom: 27px
 
 .navigation
+  +media(max-width 1200px)
+    +span-columns(6)
   +media(max-width 830px)
     +span-columns(9)
   +span-columns(8)
