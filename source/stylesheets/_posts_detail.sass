@@ -1,4 +1,6 @@
 .detail-post-title
+  +media(max-width 830px)
+    font-size: 1.7em
   color: $matcha-green
   font-size: 2em
   margin:
@@ -6,6 +8,8 @@
 
 .detail-post-topic-list
   color: darken($medium-gray, 30%)
+  +media(max-width 830px)
+    font-size: 1.1em
   font-size: 1.2em
   line-height: 1.5em
   margin:
@@ -30,6 +34,8 @@
     text-indent: -13px
 
 .article-detail p, .article-detail li
+  +media(max-width 830px)
+    font-size: 1em
   font-size: 1.1em
   line-height: 1.5em
   color: darken($medium-gray, 30%)
@@ -37,3 +43,8 @@
 .detail-post-title, .article-detail h1, .article-detail li
   margin:
     bottom: $small-margin
+
+article.article-detail
+  +media(max-width 830px)
+    +shift(0.5)
+    +span-columns(11)
