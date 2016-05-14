@@ -5,6 +5,15 @@
 # Time.zone = "UTC"
 
 activate :blog do |blog|
+
+  blog.custom_collections = {
+    category: {
+      link: '/categories/{category}.html',
+      template: '/category.html'
+      }
+    }
+
+
   # This will add a prefix to all links, template references and source paths
   # blog.prefix = "blog"
 
