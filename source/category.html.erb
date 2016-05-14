@@ -3,15 +3,7 @@ pageable: true
 per_page: 7
 ---
 
-<div class='posts'>
-  <ul>
-    <% page_articles.each do |article| %>
-      <li>
-        <%= partial "partials/index-list-item-audio", :locals => { :article => article } %>
-      </li>
-    <% end %>
-  </ul>
-</div>
+<%= partial "partials/index-list" %>
 
 <% if paginate %>
   <%= partial "partials/paginate", :locals => { :prev_page => prev_page, :next_page => next_page } %>
