@@ -1,10 +1,6 @@
 #main, .posts
   +outer-container
 
-.posts p,  article.article-detail, .index-article
-  +shift(2)
-  +span-columns(8)
-
 .soundcloud-player-small
   margin:
     top: $small-margin
@@ -17,21 +13,14 @@
   color: $medium-gray
   line-height: 1.8em
 
-.post-title
-  a
-    color: darken($medium-gray, 30%)
-    font-size: 1.7em
-
 .posts, .article-detail
   p
-    color: darken($medium-gray, 30%)
     font-size: 1.05em
     line-height: 1.35em
     margin:
       bottom: $medium-margin
 
 .detail-post-date, .post-date
-  color: $light-gray
   font-size: 1em
 
 .post-date
