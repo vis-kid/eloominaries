@@ -16,15 +16,5 @@ pageable: true
 </div>
 
 <% if paginate %>
-
-  <section>
-    <% if prev_page %>
-      <p class='pagination-link'><%= link_to '« Newer Stuff', prev_page %></p>
-    <% end %>
-
-    <% if next_page %>
-      <p class='pagination-link'><%= link_to 'Older Stuff »', next_page %></p>
-    <% end %>
-  </section>
-
+  <%= partial "partials/paginate", :locals => { :prev_page => prev_page, :next_page => next_page } %>
 <% end %>
