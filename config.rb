@@ -39,6 +39,12 @@ activate :blog do |blog|
   #blog.per_page = 4
 end
 
+helpers do
+  def print_title
+    '- ' + current_article.title unless current_article.nil?
+  end
+end
+
 page "/feed.xml", layout: false
 
 ###
