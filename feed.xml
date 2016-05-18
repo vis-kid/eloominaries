@@ -5,96 +5,82 @@
   <id>http://blog.url.com/</id>
   <link href="http://blog.url.com/"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2015-11-30T23:14:00+01:00</updated>
+  <updated>2016-02-19T11:47:00+01:00</updated>
   <author>
     <name>Blog Author</name>
   </author>
   <entry>
-    <title>My super awesome eleventh long assed titled post that breaks into another line</title>
-    <link rel="alternate" href="http://blog.url.com/2015/11/30/my-super-awesome-eleventh-post.html"/>
-    <id>http://blog.url.com/2015/11/30/my-super-awesome-eleventh-post.html</id>
-    <published>2015-11-30T23:14:00+01:00</published>
-    <updated>2016-01-01T20:49:23+01:00</updated>
+    <title>Trent Walton | #08</title>
+    <link rel="alternate" href="http://blog.url.com/2016/02/19/my-new-fancy-next-article3.html"/>
+    <id>http://blog.url.com/2016/02/19/my-new-fancy-next-article3.html</id>
+    <published>2016-02-19T11:47:00+01:00</published>
+    <updated>2016-05-15T23:48:01+02:00</updated>
     <author>
       <name>Article Author</name>
     </author>
-    <content type="html">&lt;p&gt;Vitae suscipit quos expedita id. Ratione veniam numquam ut minus voluptas nihil numquam maiores libero. Molestiae autem laboriosam illo explicabo iusto minima accusamus id ab aut impedit quidem qui voluptas. Dolor et quae sint magni sapiente. Unde corporis voluptatem rerum. Nam quidem sit dolorem vitae illo sunt vel nesciunt maxime quo ut qui. Culpa alias saepe officiis accusantium aut at hic quae sint similique. Aperiam rerum ratione eos vel reprehenderit esse impedit officiis nesciunt dolorem dolor eveniet quibusdam. Repellendus quo natus dolores error qui non. Expedita culpa doloremque enim mollitia et ullam&lt;/p&gt;
+    <content type="html">&lt;p&gt;&lt;a href="'http://localhost:4567/tags/#{current_page.data.interviewee.dasherize}.html'"&gt;current_page.data.interviewee&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;– Question #01&lt;/p&gt;
-
-&lt;p&gt;– Question #02&lt;/p&gt;
-
-&lt;p&gt;…&lt;/p&gt;
-
+&lt;p&gt;&amp;lt;%= current_page.data.interviewee %&amp;gt;&lt;/p&gt;
 </content>
   </entry>
   <entry>
-    <title>My super awesome seventh post</title>
-    <link rel="alternate" href="http://blog.url.com/2015/11/30/my-super-awesome-seventh-post.html"/>
-    <id>http://blog.url.com/2015/11/30/my-super-awesome-seventh-post.html</id>
-    <published>2015-11-30T23:13:00+01:00</published>
-    <updated>2015-11-30T23:18:19+01:00</updated>
+    <title>Trent Walton | #08</title>
+    <link rel="alternate" href="http://blog.url.com/2016/02/19/my-new-fancy-next-article2.html"/>
+    <id>http://blog.url.com/2016/02/19/my-new-fancy-next-article2.html</id>
+    <published>2016-02-19T11:47:00+01:00</published>
+    <updated>2016-05-14T21:44:59+02:00</updated>
     <author>
       <name>Article Author</name>
     </author>
-    <content type="html">&lt;p&gt;This is an example article. You probably want to delete it and write your own articles!                                       &lt;br /&gt;
-Distinctio qui perspiciatis voluptatum unde quis at quo nobis. Et maxime dolore aut. Quam animi autem sit expedita ratione asperiores ut dolorem officiis velit temporibus. Necessitatibus quo quia ullam repellat nisi quia. Ut eos consequatur est est harum ut&lt;/p&gt;
+    <content type="html">
 </content>
   </entry>
   <entry>
-    <title>My super awesome sixth post</title>
-    <link rel="alternate" href="http://blog.url.com/2015/11/30/my-super-awesome-sixth-post.html"/>
-    <id>http://blog.url.com/2015/11/30/my-super-awesome-sixth-post.html</id>
-    <published>2015-11-30T23:13:00+01:00</published>
-    <updated>2015-11-30T23:18:13+01:00</updated>
+    <title>Trent Walton | #08</title>
+    <link rel="alternate" href="http://blog.url.com/2016/02/19/my-new-fancy-next-article6.html"/>
+    <id>http://blog.url.com/2016/02/19/my-new-fancy-next-article6.html</id>
+    <published>2016-02-19T11:47:00+01:00</published>
+    <updated>2016-03-08T11:07:18+01:00</updated>
     <author>
       <name>Article Author</name>
     </author>
-    <content type="html">&lt;p&gt;This is an example article. You probably want to delete it and write your own articles!                                       &lt;br /&gt;
-Consequatur est dolorem ducimus non voluptas sed ipsum at architecto tenetur quia vero omnis consequatur. Culpa eum reprehenderit fugit beatae expedita nostrum earum vero quaerat velit animi et. Aliquam voluptatem provident ipsa. Temporibus nam minima quaerat non voluptas quam sit unde aliquid. Similique ut molestias dolorum cumque aspernatur impedit molestiae et omnis itaque qui molestiae rerum&lt;/p&gt;
-
+    <content type="html">
 </content>
   </entry>
   <entry>
-    <title>My super awesome ninth post</title>
-    <link rel="alternate" href="http://blog.url.com/2015/11/30/my-super-awesome-ninth-post.html"/>
-    <id>http://blog.url.com/2015/11/30/my-super-awesome-ninth-post.html</id>
-    <published>2015-11-30T23:13:00+01:00</published>
-    <updated>2015-11-30T23:18:33+01:00</updated>
+    <title>Trent Walton | #08</title>
+    <link rel="alternate" href="http://blog.url.com/2016/02/19/my-new-fancy-next-article7.html"/>
+    <id>http://blog.url.com/2016/02/19/my-new-fancy-next-article7.html</id>
+    <published>2016-02-19T11:47:00+01:00</published>
+    <updated>2016-05-14T21:44:46+02:00</updated>
     <author>
       <name>Article Author</name>
     </author>
-    <content type="html">&lt;p&gt;This is an example article. You probably want to delete it and write your own articles!                                       &lt;br /&gt;
-Debitis molestiae nobis fuga ut perferendis suscipit veritatis. Suscipit dolorem maxime eos est eos suscipit vel tempore dolores vero. Voluptatum similique id voluptatem vero dignissimos consequuntur odit enim id earum facilis. Ea quaerat maxime facilis aut molestiae consequuntur repellat amet hic nemo natus ab. Et aperiam perspiciatis earum autem assumenda&lt;/p&gt;
-
+    <content type="html">
 </content>
   </entry>
   <entry>
-    <title>My super awesome eigth post</title>
-    <link rel="alternate" href="http://blog.url.com/2015/11/30/my-super-awesome-eigth-post.html"/>
-    <id>http://blog.url.com/2015/11/30/my-super-awesome-eigth-post.html</id>
-    <published>2015-11-30T23:13:00+01:00</published>
-    <updated>2015-11-30T23:18:46+01:00</updated>
+    <title>Trent Walton | #08</title>
+    <link rel="alternate" href="http://blog.url.com/2016/02/19/my-new-fancy-next-article.html"/>
+    <id>http://blog.url.com/2016/02/19/my-new-fancy-next-article.html</id>
+    <published>2016-02-19T11:47:00+01:00</published>
+    <updated>2016-05-14T21:28:00+02:00</updated>
     <author>
       <name>Article Author</name>
     </author>
-    <content type="html">&lt;p&gt;This is an example article. You probably want to delete it and write your own articles!                                       &lt;br /&gt;
-Consequatur et qui at dolorem. Sed ipsum ipsa magni officia. Est omnis aperiam illo adipisci commodi. Cumque dolores necessitatibus deleniti et. Est repellendus voluptas qui hic voluptas provident mollitia corporis iure debitis delectus inventore&lt;/p&gt;
-
+    <content type="html">
 </content>
   </entry>
   <entry>
-    <title>My super awesome tenth post</title>
-    <link rel="alternate" href="http://blog.url.com/2015/11/30/my-super-awesome-tenth-post.html"/>
-    <id>http://blog.url.com/2015/11/30/my-super-awesome-tenth-post.html</id>
-    <published>2015-11-30T23:13:00+01:00</published>
-    <updated>2015-11-30T23:17:37+01:00</updated>
+    <title>Trent Walton | #08</title>
+    <link rel="alternate" href="http://blog.url.com/2016/02/19/my-new-fancy-next-article5.html"/>
+    <id>http://blog.url.com/2016/02/19/my-new-fancy-next-article5.html</id>
+    <published>2016-02-19T11:47:00+01:00</published>
+    <updated>2016-05-14T21:44:52+02:00</updated>
     <author>
       <name>Article Author</name>
     </author>
-    <content type="html">&lt;p&gt;This is an example article. You probably want to delete it and write your own articles!                                       &lt;br /&gt;
-Architecto aut reprehenderit in et commodi omnis. Sit non omnis vel numquam harum commodi tenetur voluptatem ab est rerum eligendi aliquam dolorum. Aliquam velit dolorem aliquam. Dicta architecto non vel. Excepturi ipsum quia itaque autem non&lt;/p&gt;
-
+    <content type="html">
 </content>
   </entry>
 </feed>
