@@ -19,7 +19,8 @@
     <% end %>
 
     <% if interviewee %>
-    <h4>Other episodes with <a href="/tags/<%= dasherize(interviewee) %>.html"><%= interviewee %></a</h4>
+      <h1 class=>Other Episodes</h4>
+      <a class='other-episodes' href="/tags/<%= dasherize(interviewee) %>.html"><%= interviewee %></a>
     <% end %>
   
     <%= current_article.body %>
