@@ -18,6 +18,7 @@ $base-z-index: 0;
 // margins
 $small-margin: .5em;
 $medium-margin: 4em;
+$large-margin: ($small-margin + $medium-margin);
 
 // Colors
 $brand-color: #FF0000;

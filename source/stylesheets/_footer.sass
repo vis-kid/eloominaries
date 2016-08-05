@@ -2,18 +2,18 @@ footer
   +outer-container
   border:
     top: 1px solid #E5E5E5
-  margin:
-    bottom: 5px
   h3
     color: $light-gray
     margin:
-      top: 5px
       bottom: $small-margin
+
+.random-tag-list
+  -webkit-margin-after: -0.5em
 
 .recent-posts, .footer-tags
   line-height: 1.6em
   margin:
-    top: $medium-margin
+    top: $large-margin
   a
     color: darken($medium-gray, 30%)
   li
@@ -21,6 +21,8 @@ footer
     margin:
       bottom: $small-margin
       top: $small-margin
+  li:last-of-type
+    margin-bottom: 0px
 
 .footer-tags
   li
@@ -30,6 +32,6 @@ footer
 
 .recent-posts
   margin:
-    bottom: $medium-margin
+    bottom: $large-margin
   li
     text-indent: -12px

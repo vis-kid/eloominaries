@@ -7,7 +7,7 @@
 
 .index-article
   margin:
-    bottom: ($small-margin + $medium-margin)
+    bottom: $large-margin
 
 .topic-list
   color: $medium-gray
@@ -17,8 +17,6 @@
   p
     font-size: 1.05em
     line-height: 1.35em
-    margin:
-      bottom: $medium-margin
 
 .detail-post-date, .post-date
   font-size: 1em
@@ -37,3 +35,15 @@
 .recent-posts li:before, .article-detail li:before
   content: "• "
   color: $brand-color
+
+.article-detail h3
+  -webkit-margin-after: 0em
+  -webkit-margin-before: 0em
+  margin:
+    top: 83px
+    bottom: $small-margin
+  line-height: 1em
+
+h3.detail-post-topic-list 
+  margin:
+    top: 0px
