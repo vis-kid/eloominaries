@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv='X-UA-Compatible' content='IE=edge;chrome=1' />
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="initial-scale=1">
+    <title>Between | Screens </title>
+
+    <link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/feed.xml" />
+    <link href="../stylesheets/all-e530291f.css" rel="stylesheet" type="text/css" />
+    <script src="../javascripts/all-6b49b87d.js" type="text/javascript"></script>
+  </head>
+
+  <body>
+
+    <header>
+    <div id="logo">
+<a href="/">         <img alt="Logo cube" src="../images/Between_Screens_Logo_Cube_Up-539d6997.svg" />
+</a>    </div>
+    <nav class="navigation">
+      <ul class="nav-list">
+        <li><a href="https://github.com/vis-kid/betweenscreens">fork!</a></li>
+        <li><a href="../pages/about.html">about</a></li>
+        <li><a href="../design.html">design</a></li>
+        <li><a href="/code.html">code</a></li>
+      </ul>
+    </nav>
+</header>
+
+    
+    <div id="main" role="main">
+      <p class="show_notes_display"><b>Sponsors:<br /></b>- Draplin Design Co. <a rel="nofollow" target="_blank" href="http://draplin.com/merch/">Merch Store</a><br />- <a rel="nofollow" target="_blank" href="http://fieldnotesbrand.com/">Field Notes</a><br /><b><br />Questions:</b><br />- How do you guys prototype at Etsy?<br />- How do you conduct user tests?<br />- What can you tell us about interns, juniors and onboarding at Etsy?<br />- Do you hire lots of juniors these days, coming from bootcamps or whatever?<br />- Do people at Etsy have something like weekly investment time, like every Friday working on Open Source stuff or whatever?<br /><br /><b>Links:</b><br /><a rel="nofollow" target="_blank" href="http://randyjhunt.com/">Randy J. Hunt</a><br />Randy J. Hunt’s book <i><a rel="nofollow" target="_blank" href="http://amzn.to/1MndsFo">Product Design for the Web</a></i><br />Randy J. Hunt on <a rel="nofollow" target="_blank" href="https://twitter.com/randyjhunt">Twitter</a><br />Randy J. Hunt on <a rel="nofollow" target="_blank" href="http://www.etsy.com/people/randyjhunt">Etsy</a><br /></p>
+
+    </div>
+
+    <footer>
+
+  <div class='footer-tags'>
+    <h3>Random Tags</h3>
+    <ul class='random-tag-list'>
+        <li><a href="../tags/prototyping-facebook.html">Prototyping (  Facebook )</a></li>
+        <li><a href="../tags/statemanager.html">StateManager</a></li>
+        <li><a href="../tags/lip-service.html">Lip service</a></li>
+        <li><a href="../tags/intimidation.html">Intimidation</a></li>
+        <li><a href="../tags/beginners-mind.html">Beginners mind</a></li>
+        <li><a href="../tags/extends.html">Extends</a></li>
+        <li><a href="../tags/leaving-twitter-behind.html">Leaving Twitter behind</a></li>
+        <li><a href="../tags/forums.html">Forums</a></li>
+        <li><a href="../tags/code-design.html">Code  design</a></li>
+        <li><a href="../tags/sql-nosql.html">SQL  NoSQL</a></li>
+    </ul>
+  </div>
+
+  <div class='recent-posts'>
+    <h3>Random Posts</h3>
+    <ul>
+        <li><a href="../2015/05/07/05-07-chad-pytel.html">Chad Pytel</a></li>
+        <li><a href="../2015/07/13/07-13-corwin-har.html">Corwin Harrell</a></li>
+        <li><a href="../2015/07/24/07-24-kyle-fiedl.html">Kyle Fiedler</a></li>
+        <li><a href="../2015/04/08/04-08-tom-dale--.html">Tom Dale</a></li>
+        <li><a href="../2015/02/02/02-02-parker-moo.html">Parker Moore</a></li>
+        <li><a href="../2015/04/29/04-29-obie-ferna.html">Obie Fernandez</a></li>
+        <li><a href="../2015/07/07/07-07-kyle-fiedl.html">Kyle Fiedler</a></li>
+        <li><a href="../2015/03/26/03-26-tom-dale--.html">Tom Dale</a></li>
+        <li><a href="../2015/01/22/01-22-scott-sava.html">Scott Savarie</a></li>
+        <li><a href="../2015/01/28/01-28-avdi-grimm.html">Avdi Grimm</a></li>
+    </ul>
+  </div>
+
+</footer>
+
+    
+  </body>
+</html>
