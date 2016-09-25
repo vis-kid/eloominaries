@@ -1,0 +1,41 @@
+---
+title: My super awesome eleventh long assed titled post that breaks into another line
+topic_list: 'Design Directors @ thoughtbot | Leadership | Chief Design Officer responsibilities | Fulfilled & happy | Flat hierarchy | Coordinating Design Directors | Titles | Feedback'
+date: 2013-01-22 22:14 UTC
+soundcloud_id: 212990122
+tags:
+category: Design
+---
+
+
++ Why do you want to program?
+
++ What do you think a programer does?
+
++ Any experience with coding?
+
++ Used Linux before?
+
++ Which programming languages have you played with?
+
++ Some experiences with HTML or CSS?
+
++ It is going to be challenging. You have to be persistent for a while to make serious progress.
+
++ Hartl tutorial has 11 chapters and after that I’ll show you how you can build your own static websites and blogs
+
++ If you have no computer, borrow one, buy one cheap—basically try to get one
+
++ We will work in pairs because this is a very effective technique to learn, to teach each other and a popular technique to work on difficult problems. 2 minds understand a problem bbetter than a single one. 
+
++ The Hartl tutorial is written by a former professor from the second best technical university in the world. You can access his book for free on the web or buy the pdf or his video tutorial series. Totally up to you, I’m in no way affiliated with him. I’ve met him and can tell you that he is a real cool dude and an awesome teacher. In my mind, there is not better material to get into web programming than his book. You will build a Twitter clone with user profiles, tweets and the following mechanism. Pretty much the real deal with real complexities—broken down for newbies of course.
+
++ The first chapter is going to be very challenging for some. You have to install a lot of very new software and you will get used to the pain of dealing with installing software. This is a different experience than downloading apps or installing software on your Mac. You will install the tools software developers / some call themselves software writers as well these days / use for creating their programs. This is a bit more complex and can sometimes be confusing—especially if you are a beginner and are thrown into the mix with a couple of new programming tools at once. Don’t worry though and don’t get discouraged. It is important that you get used to being a little frustrated with these things because you might deal with them more often than not—especially when you start out. That is exactly the time where you need to be persistent and fight against your instincts I guess. I can imagine that many people feel dumb because they struggle with these things in the beginning. Just take your time and take it step by step. Some people get over it quickly but that does not make them smarter or a better programmer automatically. 
+
++ You will learn how to build websites, how to transfer them on a server, how to do version control of your software (securing your code like backups), write code in the Ruby programming language (which is a real great one, modern too), learn how to use the Ruby on Rails framework for writing web applications, learn how to use a text editor and how to model a database. In short, you will learn a ton of useful modern technologies that can be very valuable if you look for a career in software development. Don’t get me wrong, this won’t happen over time and without you putting time into this but you will be capable to work in this industry if you continue this path. This is a very good entry into this field without spending tens of thousands of dollars.
+
++ I consider myself more of a mentor than a teacher. We won’t do the classical classroom thing which I think sucks and does not work with programming. Programming needs to be explored and practiced—no amount of chalk on a board of letters pressed in a book can compensate for that. Read as much as you need to, as much as you like in fact but please don’t forget to build something. This will increase your level of progress faster than anything else. Sure it is boring sometimes to build dummy apps that are so much less interesting than the ideas for projgects or startups that you already have, but trust me that you can not jump into building something amazing right away. This will most likely only frustrate you. Similar to getting a drivers licence and wanting to drive a Formula One car the next day. Unrealistic!
+
++ Once you have this step behind you, it will still be confusing a lot of the time because the world of software is a complex one but it will become less frustrating after a while. I think it should be your goal to aim to get to that point. The main reason people give up programming is because they don’t know that everybody has to go through that phase and that it’s normal that you might suffer in the beginning and also that you feel a little dumb every once in a while during your whole career. There are tons of people in this industry who are considered experts who feel like impostors sometimes. Although they are considered masters in their crafts they feel insufficiantly skilled. Crazy right? But the good thing is that this keeps peopel humble and hungry to learn more and not stand still.
+
++ Software has one aspect that is the only constant. Can anybody guess what this could be? -> Change. Getting used to that is important as well. The field of software development is huge and the pace of change is pretty rapidly. This can be unsexy for people but I personally thing this is very exciting. If you feel different about that today you might feel differently about that in the future though.
