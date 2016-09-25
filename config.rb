@@ -18,9 +18,11 @@ activate :blog do |blog|
   # blog.prefix = "blog"
 
   # blog.permalink = "{year}/{month}/{day}/{title}.html"
+  blog.permalink = "{title}.html"
   # Matcher for blog source files
   # blog.sources = "{year}-{month}-{day}-{title}.html"
-	blog.sources = "posts/:year-:title.html"
+	#blog.sources = "posts/:year-:title.html"
+	blog.sources = "posts/:title.html"
   # blog.taglink = "tags/{tag}.html"
   blog.layout = "layouts/blog-layout"
   # blog.summary_separator = /(READMORE)/
