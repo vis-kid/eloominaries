@@ -6,7 +6,9 @@ per_page: 12
 
 <ul class='tag-list'>
   <% page_articles.each_with_index do |article, i| %>
-    <span class='tag-date' ><%= article.date.strftime('%b %e | %Y') %></span><li class='tag-list-title'><%= link_to article.title, article %></li>
+    <span class='tag-date' ><%= article.date.strftime('%b %e | %Y') %></span>
+    <li class='tag-list-title'><%= link_to article.title, article %></li>
+    <li class='topic-list large-bumper'><%= article.metadata[:page][:topic_list] %></li>
   <% end %>
 </ul>
 
