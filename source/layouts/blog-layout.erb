@@ -4,7 +4,16 @@
 
   <h4 class='detail-post-date'><%= date %></h3>
     <h2 class='detail-post-title'><%= title %></h2>
-    <h3 class='detail-post-topic-list'><%= topic_list %></h3>
+    <section class='tag-list-section'>
+      <% current_page.tags.each do |tag| %>
+        <% if tag == current_page.tags.last %>
+          <%= link_to "#{tag}", tag_path(tag), :class => 'tag-list-link' %>
+        <% else %>
+          <%= link_to "#{tag}", tag_path(tag), :class => 'tag-list-link' %>
+          <%= " |" %>
+        <% end %>
+      <% end %>
+    </section>
   
     <% if soundcloud_id %>
       <section class='soundcloud-player-big'>
