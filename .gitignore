@@ -19,3 +19,8 @@
 
 #Bin
 bin/**
+
+#Node Modules
+/node_modules
+
+/bundler_stubs
