@@ -107,10 +107,16 @@ set :images_dir, 'images'
 
 
 activate :deploy do |deploy|
-  deploy.method = :git
+  deploy.deploy_method = :git
   deploy.branch = 'gh-pages'
   deploy.build_before = true
 end
+
+activate :external_pipeline,
+  name: :gulp,
+  command: build? ? 'npm run production' : 'npm run gulp',
+  source: ".tmp",
+  latency: 1
 
 # Build-specific configuration
 configure :build do
