@@ -1,8 +1,8 @@
 --- 
 title:           Obie Fernandez 
 interviewee:     Obie Fernandez 
-topic_list:     Growing up | Kids | Languages & frameworks | Node.js | JavaScript | CoffeeScript | Firebase | Angualr.js | Material Design | Creative urge | Pissed off | “American Dream” | Female co-workers | Adverse environment | DevChix
-tags:            Obie Fernandez , Growing up , Kids , Languages  frameworks , Node.js , JavaScript , CoffeeScript , Firebase , Angualr.js , Material Design , Creative urge , Pissed off , “American Dream” , Female co-workers , Adverse environment , DevChix
+topic_list:     Growing up | Kids | Languages & frameworks | Node.js | JavaScript | CoffeeScript | Firebase | Angular.js | Material Design | Creative urge | Pissed off | “American Dream” | Female co-workers | Adverse environment | DevChix
+tags:            Obie Fernandez , Growing up , Kids , Languages  frameworks , Node.js , JavaScript , CoffeeScript , Firebase , Angular.js , Material Design , Creative urge , Pissed off , “American Dream” , Female co-workers , Adverse environment , DevChix
 soundcloud_id:  212822966
 date:           2015-07-01
 episode_number: 125
