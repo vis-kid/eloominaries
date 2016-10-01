@@ -6,6 +6,7 @@ tags:            Mark Simonson , QA , 02 , Improve , Design work , College , Ido
 soundcloud_id:  195183186
 date:           2015-03-10
 episode_number: 69
+category: Design
 ---
 
 <p class="show_notes_display"><b>Sponsors:<br></b>- Draplin Design Co. <a rel="nofollow" target="_blank" href="http://draplin.com/merch/">Merch Store</a><br>- <a rel="nofollow" target="_blank" href="http://fieldnotesbrand.com/">Field Notes</a><b><br><br>Questions:</b>
