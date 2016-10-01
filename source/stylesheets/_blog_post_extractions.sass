@@ -25,14 +25,15 @@
   font-size: 1em
 
 .post-date
+  display: block
   margin:
-    left: em(-111px)
-    right: em(10px)
-  +media(max-width 830px)
+    bottom: em(-29px)
+    //left: em(-111px)
+  +shift(-2.6)
+  +media(max-width 938px)
     display: block
+    +shift(0)
     margin:
-      left: em(0px)
-      right: em(0px)
       bottom: $small-margin
 
 .recent-posts li:before, .article-detail li:before
