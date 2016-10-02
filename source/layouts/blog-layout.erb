@@ -2,7 +2,7 @@
 
   <article class='article-detail'>
 
-  <h4 class='detail-post-date'><%= date %></h3>
+  <h4 class='detail-post-date'><%= date %></h4>
     <h2 class='detail-post-title'><%= title %></h2>
     <section class='tag-list-section'>
       <% current_page.tags.each do |tag| %>
@@ -28,7 +28,7 @@
     <% end %>
 
     <% if interviewee %>
-      <h3 id='other-episodes'>Other Episodes</h1>
+      <h3 id='other-episodes'>Other Episodes</h3>
       <a class='other-episodes' href="/tags/<%= dasherize(interviewee) %>.html"><%= interviewee %></a>
     <% end %>
   
