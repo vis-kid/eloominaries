@@ -1,0 +1,142 @@
+<!doctype html>
+<html>
+
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv='X-UA-Compatible' content='IE=edge;chrome=1' />
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="initial-scale=1">
+    <title>Between | Screens - Obie Fernandez</title>
+
+    <link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/feed.xml" />
+    <link href="../stylesheets/all-f3533832.css" rel="stylesheet" />
+    <script src="../javascripts/all-4c20da82.js"></script>
+  </head>
+
+  <body>
+
+    <header>
+    <div id="logo">
+<a href="/">         <img src="../images/Between_Screens_Logo_Cube_Up-539d6997.svg" alt="Logo cube" />
+</a>    </div>
+    <nav class="navigation">
+      <ul class="nav-list">
+        <li><a href="https://github.com/vis-kid/betweenscreens">fork!</a></li>
+        <li><a href="../pages/about.html">about</a></li>
+        <li><a href="../design.html">design</a></li>
+        <li><a href="../code.html">code</a></li>
+      </ul>
+    </nav>
+</header>
+
+    
+    <div id="main" role="main">
+      
+  <article class='article-detail'>
+
+  <h4 class='detail-post-date'>Jul  1 | 2015</h4>
+    <h2 class='detail-post-title'>Obie Fernandez</h2>
+    <section class='tag-list-section'>
+          <a href="../tags/obie-fernandez.html" class="tag-list-link">Obie Fernandez</a>
+           |
+          <a href="../tags/growing-up.html" class="tag-list-link">Growing up</a>
+           |
+          <a href="../tags/kids.html" class="tag-list-link">Kids</a>
+           |
+          <a href="../tags/languages-frameworks.html" class="tag-list-link">Languages  frameworks</a>
+           |
+          <a href="../tags/node-js.html" class="tag-list-link">Node.js</a>
+           |
+          <a href="../tags/javascript.html" class="tag-list-link">JavaScript</a>
+           |
+          <a href="../tags/coffeescript.html" class="tag-list-link">CoffeeScript</a>
+           |
+          <a href="../tags/firebase.html" class="tag-list-link">Firebase</a>
+           |
+          <a href="../tags/angular-js.html" class="tag-list-link">Angular.js</a>
+           |
+          <a href="../tags/material-design.html" class="tag-list-link">Material Design</a>
+           |
+          <a href="../tags/creative-urge.html" class="tag-list-link">Creative urge</a>
+           |
+          <a href="../tags/pissed-off.html" class="tag-list-link">Pissed off</a>
+           |
+          <a href="../tags/%E2%80%9Camerican-dream%E2%80%9D.html" class="tag-list-link">“American Dream”</a>
+           |
+          <a href="../tags/female-co-workers.html" class="tag-list-link">Female co-workers</a>
+           |
+          <a href="../tags/adverse-environment.html" class="tag-list-link">Adverse environment</a>
+           |
+          <a href="../tags/devchix.html" class="tag-list-link">DevChix</a>
+    </section>
+  
+      <section class='soundcloud-player-big'>
+        <iframe 
+          width="100%" 
+          height="450" 
+          scrolling="no" 
+          frameborder="no" 
+          src=https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/212822966&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true>
+        </iframe>
+      </section>
+
+      <h3 id='other-episodes'>Other Episodes</h3>
+      <a class='other-episodes' href="/tags/obie-fernandez.html">Obie Fernandez</a>
+  
+    <p class="show_notes_display"><b>Sponsors:<br /></b>- <a rel="nofollow" target="_blank" href="https://www.codeschool.com/betweenscreens">Code School</a><b><br /></b>- <a rel="nofollow" target="_blank" href="http://mediatemple.net/?utm_source=BetweenScreens&amp;utm_medium=podcast&amp;utm_campaign=SCREEN25">Media Temple</a><b><br /></b>   -&gt; Promo code SCREEN25 for 25% off web hosting<br /><b><br />Questions</b><br />- Where do you live and where do you come from?<br />- Where do you like to spend your vacations?<br />- What are your favorite programming languages and frameworks?<br />- What pisses you off?<br />- What do you like about working as a developer?<br />- What do you think male co-workers can do or should avoid to make female co-workers more comfortable at work?<br /><br /><b>Links:<br /></b><a rel="nofollow" target="_blank" href="http://www.andela.co/">Andela</a><br /><a rel="nofollow" target="_blank" href="http://hashrocket.com/">Hashrocket</a><br /><a rel="nofollow" target="_blank" href="http://obiefernandez.com/">Obie Fernandez</a><br />Obie Fernandez on <a rel="nofollow" target="_blank" href="https://twitter.com/obie">Twitter</a><br />Obie Fernandez on <a rel="nofollow" target="_blank" href="https://github.com/obie">Github</a><br />Obie’s book <i><a rel="nofollow" target="_blank" href="http://amzn.to/1AhIDdX">The Rails 4 Way</a><br /></i><a rel="nofollow" target="_blank" href="https://leanpub.com/u/obie">Other books</a> from Obie Fernandez<br /><br /></p>
+
+  
+  </article>
+
+
+    </div>
+
+    <footer>
+
+  <div class='footer-tags'>
+    <h3>Random Tags</h3>
+    <ul class='random-tag-list'>
+      <li><a href="../tags/designing-typefaces.html">Designing typefaces</a></li>
+      <li><a href="../tags/decompress.html">Decompress</a></li>
+      <li><a href="../tags/navigation.html">Navigation</a></li>
+      <li><a href="../tags/introduction.html">Introduction</a></li>
+      <li><a href="../tags/rails%E2%80%99s-codebase.html">Rails’s codebase</a></li>
+      <li><a href="../tags/developers.html">Developers</a></li>
+      <li><a href="../tags/target-audience.html">Target audience</a></li>
+      <li><a href="../tags/looking-inward.html">Looking inward</a></li>
+      <li><a href="../tags/syntax-preferences.html">Syntax preferences</a></li>
+      <li><a href="../tags/white-space.html">White space</a></li>
+      <li><a href="../tags/design-%E2%80%9Cidols%E2%80%9D.html">Design “idols”</a></li>
+      <li><a href="../tags/becoming-overwhelmed.html">Becoming overwhelmed</a></li>
+      <li><a href="../tags/vim.html">Vim</a></li>
+      <li><a href="../tags/segmenting-problems.html">Segmenting problems</a></li>
+      <li><a href="../tags/giving-critique.html">Giving critique</a></li>
+      <li><a href="../tags/design-work.html">Design work</a></li>
+      <li><a href="../tags/javascript-promises.html">JavaScript Promises</a></li>
+      <li><a href="../tags/improve-as-designer.html">Improve as designer</a></li>
+      <li><a href="../tags/mobile-design.html">Mobile design</a></li>
+      <li><a href="../tags/%E2%80%9Cgood%E2%80%9D-designer.html">“Good” designer</a></li>
+    </ul>
+  </div>
+
+  <div class='recent-posts'>
+    <h3>Random Posts</h3>
+    <ul>
+      <li><a href="49">Steven B. Cook</a></li>
+      <li><a href="81">Max Luster</a></li>
+      <li><a href="54">Brandon Mathis</a></li>
+      <li><a href="84">Parker Moore</a></li>
+      <li><a href="135">Chad Pytel</a></li>
+      <li><a href="2">Steve Klabnik</a></li>
+      <li><a href="91">Chad Pytel</a></li>
+      <li><a href="40">Parker Moore</a></li>
+      <li><a href="26">Coby Chapple</a></li>
+      <li><a href="92">Trent Walton</a></li>
+    </ul>
+  </div>
+
+</footer>
+
+    
+  </body>
+</html>
