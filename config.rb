@@ -17,7 +17,9 @@ activate :blog do |blog|
   # blog.prefix = "blog"
 
   # blog.permalink = "{year}/{month}/{day}/{title}.html"
-  blog.permalink = "{title}.html"
+    
+  #blog.permalink = "{title}.html"
+  blog.permalink = "episodes/{episode_number}"
   # Matcher for blog source files
   # blog.sources = "{year}-{month}-{day}-{title}.html"
 	#blog.sources = "posts/:year-:title.html"
