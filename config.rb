@@ -19,7 +19,7 @@ activate :blog do |blog|
   # blog.permalink = "{year}/{month}/{day}/{title}.html"
     
   #blog.permalink = "{title}.html"
-  blog.permalink = "episodes/{episode_number}"
+  blog.permalink = "episodes/{episode_number}.html"
   # Matcher for blog source files
   # blog.sources = "{year}-{month}-{day}-{title}.html"
 	#blog.sources = "posts/:year-:title.html"
@@ -137,4 +137,7 @@ configure :build do
 
   # Or use a different image path
   # set :http_prefix, "/Content/images/"
+  
+  #Pretty URL
+  activate :directory_indexes
 end
