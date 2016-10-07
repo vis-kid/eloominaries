@@ -1,6 +1,6 @@
 --- 
 title:           João Ferreira 
-interviewee:     João Ferreira 
+interviewee:     Joao Ferreira 
 topic_list:     Masters @ Work | Subvisual | Deadlines | Design personality | Design problems | Team | Pushing envelopes | Delightful experiences | Perfecting details | Company values
 tags:            João Ferreira , Masters  Work , Subvisual , Deadlines , Design personality , Design problems , Team , Pushing envelopes , Delightful experiences , Perfecting details , Company values
 soundcloud_id:  221003494
