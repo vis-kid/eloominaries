@@ -12,8 +12,17 @@
   <div class='recent-posts'>
     <h3>Random Interviewees</h3>
     <ul>
-      <% blog.articles.shuffle[0...10].each do |article| %>
-      <li><%= link_to article.title, tag_path(article.title) %></li>
+
+      <% articles = [] %>
+
+      <% blog.articles.each do |article| %>
+        <% articles << article.title %>
+      <% end %>
+
+      <% articles = articles.uniq %>
+
+      <% articles.shuffle[0...10].each do |article| %>
+      <li><%= link_to article, tag_path(article) %></li>
       <% end %>
     </ul>
   </div>
