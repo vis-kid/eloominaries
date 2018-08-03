@@ -6,15 +6,15 @@
     <h2 class='detail-post-title'><%= title %></h2>
     <section class='tag-list-section'>
       <% current_page.tags.each do |tag| %>
-        <% if tag == current_page.tags.last %>
-          <%= link_to "#{tag}", tag_path(tag), :class => 'tag-list-link' %>
-        <% else %>
-          <%= link_to "#{tag}", tag_path(tag), :class => 'tag-list-link' %>
+        <% unless tag == current_page.tags.last %>
+          <%= add_link_tag(tag) %>
           <%= " |" %>
+        <% else tag == current_page.tags.last %>
+          <%= add_link_tag(tag) %>
         <% end %>
       <% end %>
     </section>
-  
+
     <% if soundcloud_id %>
       <section class='soundcloud-player-big'>
         <iframe 
