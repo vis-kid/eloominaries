@@ -8,7 +8,7 @@
       <% current_page.tags.each do |tag| %>
         <% unless tag == current_page.tags.last %>
           <%= add_link_tag(tag) %>
-          <%= " |" %>
+          <%= "<span class='tag-list-link'> |</span>" %>
         <% else tag == current_page.tags.last %>
           <%= add_link_tag(tag) %>
         <% end %>
