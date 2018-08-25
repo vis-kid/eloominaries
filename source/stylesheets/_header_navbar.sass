@@ -11,12 +11,22 @@ body
     +shift(1.6)
   +span-columns(2)
   +media(max-width 830px)
+    +span-columns(3.5)
     +shift(0.5)
+  +media(max-width 402px)
+    +span-columns(3)
   -webkit-filter: drop-shadow( 0px 3px 1px lighten($light-gray, 5%))
   filter: drop-shadow( 0px 3px 1px lighten($light-gray, 5%))
   img
+    +media(max-width 435px)
+      width: 90%
+      height: 90%
+      margin:
+        top: 0px
     +media(max-width 830px)
-      margin-left: -5px
+      margin:
+        left: 0px
+    margin-left: -5px
     height: 65px
     margin:
       left: 24px
@@ -30,9 +40,13 @@ header
 
 .navigation
   +media(max-width 1200px)
-    +span-columns(6)
+    +span-columns(5.3)
+    +shift(1)
   +media(max-width 830px)
-    +span-columns(9)
+    +shift(0)
+    +span-columns(7.4)
+  +media(max-width 402px)
+    +span-columns(8)
   +span-columns(8)
   li
     display: inline-block
@@ -42,5 +56,8 @@ header
   a
     font-size: 1.05em
     color: darken($medium-gray, 30%)
+    +media(max-width 435px)
+      margin:
+        left: $medium-margin / 6
     margin:
       left: $medium-margin / 4
