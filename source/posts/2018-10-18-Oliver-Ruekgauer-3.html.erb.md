@@ -1,6 +1,6 @@
 --- 
-title: Oliver Rückgauer
-interviewee: Oliver Rückgauer
+title: Oliver Rükgauer
+interviewee: Oliver Rükgauer
 topic_list: eloom | Digital transformation | Startups | Migros | Swisscom | Blockchain Business Hub | Angels VCs | AI | IOT | Data ownership | Decentralization | Ecosystems
 tags: eloom, Digital transformation, Startup incubator, Migros, Swisscom, Blockchain Business Hub, Angels VCs, AI, IOT, Data ownership, Decentralization, Ecosystems
 soundcloud_id: 516450066
