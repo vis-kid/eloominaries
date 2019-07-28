@@ -29,7 +29,7 @@ module CustomHelpers
   end
 
   def big_soundcloud_player
-    "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/"+ soundcloud_id.to_s + "&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"
+    "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/"+ soundcloud_id.to_s + "&color=%23fc0d1b&auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"
   end
 
   def add_link_tag(tag)
