@@ -1,6 +1,7 @@
 --- 
 title: David Heinemeier Hansson
 interviewee: David Heinemeier Hansson
+published: true
 
 topic_list: Rails community | Tone | Technical disagreements | Community policing | Ungratefulness | No assholes allowed | Basecamp | Open source persona | Aspirations | Guarding motivations | Dealing with audiences | Pressure | Honesty | Diverse opinions | Small talk
 
